@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.topbar {
+  background-color: teal;
+  overflow: hidden;
+}
+
+.topbar a {
+  float: right;
+  color: whitesmoke;
+  padding: 20px 26px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.sidebar {
+  background-color: rgb(102, 150, 151);
+  color: white;
+  height: 100%;
+}
+
+.sidebar a {
+  margin-left: 10px;
+  display: block;
+  color: white;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.content {
+  background-color: whitesmoke;
+}
+
+.custom-btn {
+  -webkit-transition: font-size 0.5s;
+  transition: font-size 0.5s;
+}
+
+.custom-btn:hover {
+  color: white !important;
+  padding-right: 12px;
+  padding: 12px;
+  font-size: 1.1em;
+}
